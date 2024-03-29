@@ -5,3 +5,7 @@ install:
 
 run:	
 	flask run
+
+
+pylint:
+	pylint app.py
